@@ -1,4 +1,40 @@
+#rectangleSide {
+    border-radius: 30px;
+    height: 40px;
+    width: 60px;
+    background-color: #6764E7; 
+    margin-top: 8px;
+   
+}
 
+.rectangle {
+    border-radius: 27px;
+    height: 28px;
+    width: 56px;
+}
+
+.rectangle-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    max-height: 50px;
+}
+
+
+
+
+.question {
+    color: #262626;
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    margin-top: 35px;
+}
 @media screen and (max-width: 480px) {
     * {
         font-family: 'Manrope', sans-serif;
