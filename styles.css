@@ -1,0 +1,157 @@
+
+@media screen and (max-width: 480px) {
+    * {
+        font-family: 'Manrope', sans-serif;
+        text-decoration: none;
+    }
+
+    h2 {
+        color: #262626;
+        font-size: 31.119386672973633px;
+        font-weight: 700;
+      
+    }
+    html, body {
+        overflow-x: hidden;
+       
+    }
+
+    .first-page {
+       
+        margin: 70px 30px;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .header-page {
+        margin-bottom: 35px;
+    }
+
+
+
+    #header {
+    color: #262626;
+    font-size: 39.70416259765625px;
+    font-weight: 700;
+    line-height: 1.3;
+    
+    }
+
+    #rules, #generateQ, #generateSide {
+    background: #000000;
+    border-radius: 100px;
+    font-family: Manrope;
+    font-weight: 700;
+    padding: 10px 68px;
+    margin-top: 10px;
+    color: #fff; 
+    box-sizing: border-box;
+    }
+
+    #rules:visited,  #generateQ:visited, #generateSide:visited{
+        text-decoration: none;
+        color: #fff; 
+    }
+
+    #categories-form {
+        background: #f2f5f8;
+        border-radius: 11px;
+        text-align: center;
+        padding: 25px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        border: 2px solid #fff;
+        border-radius: 100px;
+        cursor: pointer;
+        background: #ffffff;
+        height: 48px;
+        transition: border 0.3s ease;
+        font-weight: 700;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    /* Styles for selected and unselected checkboxes */
+    input[type="checkbox"]:checked label {
+        border: 2px solid black;
+    }
+
+    .selected {
+        border: 2px solid black;
+    }
+    
+    .generate-side {
+        display: flex;
+        flex-direction: column;
+        background: #f2f5f8;
+        border-radius: 11px;
+       align-items: center;
+        padding: 20px 40px;
+        margin-top: 30px;
+    }
+
+    .generate-side-part {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        gap: 15px;
+        flex-wrap: wrap
+    }
+    
+    
+
+    #rectangleSide {
+        border-radius: 30px;
+        height: 40px;
+        width: 60px;
+        background-color: #6764E7; 
+        margin-top: 8px;
+       
+    }
+
+    .rectangle {
+        border-radius: 27px;
+        height: 28px;
+        width: 56px;
+    }
+
+    .rectangle-option {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        max-height: 50px;
+    }
+
+
+    
+
+    .question {
+        color: #262626;
+        font-family: Manrope;
+        font-size: 30px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+        margin-top: 35px;
+    }
+
+  
+}
